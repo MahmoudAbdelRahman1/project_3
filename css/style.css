@@ -1,0 +1,258 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Almarai;
+}
+body
+{
+    background-color: black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+img
+{
+    width: 100%;
+}
+section
+{
+    width: 360px;
+    height: 620px;
+    background-color: rgb(196, 196, 196);
+    position: absolute;
+
+}
+section .box_min
+{
+    width: 360px;
+    height: 170px;
+    background-color: yellow;
+    margin-top: 100px;
+    overflow: hidden;
+    
+}
+.box_min .box_img
+{
+    width: 360px;
+    height: 170px;
+    overflow: hidden ;
+    position: relative;
+}
+.box_img img
+{
+    position: absolute;
+    top: -100%;
+    opacity: 0;
+}
+.box_img img.actimg
+{
+    opacity: 1;
+}
+.box_min .img_but
+{
+    width: 20px;
+    height: 170px;
+    position: relative;
+    top: -100%;
+    float: right;
+    padding-top: 20px;
+}
+.img_but button
+{
+   width: 17px;
+   height: 17px;
+   border-radius: 50%;
+   margin: 5px auto;
+   border: 0px;
+   outline: none;
+   background-color: #ffffff;
+}
+.img_but button.actbut
+{
+    background-color: #2C007A;
+}
+.box_min .box_info
+{
+    width: 360px;
+    height: 170px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #2C007A;
+    position: relative;
+    top: -101%;
+    display: flex;
+    justify-content: center;
+}
+.box_info.actinfo
+{
+    top: -200%;
+    border-radius: 0px;
+    transition: 1s;
+}
+.box_info .toping
+{
+    width: 70px;
+    height: 10px;
+    border-radius: 15px 15px 0px 0px;
+    border: 0px;
+    margin-top: -10px;
+    background-color: #2C007A;
+}
+.toping .fa-caret-left
+{
+    transform: rotate(90deg);
+    font-size: 20px;
+    margin-top: -7px;
+    color: #ffffff;
+}
+.box_info .toping.beforbut
+{
+    transform: rotate(180deg);
+    margin-top: 0px;
+    background-color: #ffffff;
+    transition: 0s;
+}
+.toping i.iconleft
+{
+    color: #2C007A;
+}
+.box_info .titel_info
+{
+    width: 360px;
+    height: 50px;
+    position: absolute;
+    top: 7%;
+}
+.titel_info .img_prof
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: honeydew;
+    margin-left: 5px;
+    margin-top: -5px;
+}
+.img_prof img
+{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;   
+}
+.box_info .text_info
+{
+    width: 360px;
+    height: 60px;
+    position: absolute;
+    top: 36%;
+}
+.box_info h3
+{
+    position: absolute;
+    top: 19%;
+    left: 17%;
+    color: white;
+}
+.box_info p
+{
+    position: relative;
+    top: -60%;
+    left: 58%;
+    color: #76FF0E;
+    font-size: 15px;
+}
+.text_info .conter_header
+{
+    width: 338px;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+}
+.conter_header h1
+{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: -25%;
+    
+}
+.text_info .siz
+{
+    width: 160px;
+    height: 20px;
+}
+.siz span
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #FF9900;
+}
+.siz button
+{
+    width: 32px;
+    height: 20px;
+    margin: auto 1px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #FF9900;
+    color: #FF9900;
+}
+.siz button.actsiz
+{
+    background-color: #FF9900;
+    color: #2C007A;
+}
+.text_info .color
+{
+    width: 160px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.color button
+{
+    width: 20px;
+    height: 20px;
+    margin-left: -5px;
+    border: 0px;
+    border-radius: 0px;
+}
+.color .A{background-color: #000000}
+.color .B{background-color: #FFFFFF;}
+.color .C{background-color:#CE0C0C;}
+.color .D{background-color: #FFC70E;}
+.color button.actcolor
+{
+    width: 40px;
+}
+.color span
+{
+    position: relative;
+    top: -20%;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #FF9900;
+    font-size: 20px;
+}
+.box_info .pay
+{
+    width:360px;
+    height: 50px;
+    position: absolute;
+    top: 71%;
+}
+.pay button
+{
+    width: 340px;
+    height: 35px;
+    background-color: #1CB704;
+    border-radius: 20px 20px 0px 0px;
+    border: 0px;
+    position: relative;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    color: #ffffff;
+}
